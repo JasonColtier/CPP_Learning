@@ -8,7 +8,7 @@
 #include "Basic/Inputhandler.h"
 #include "Advanced/InputhandlerAdvanced.h"
 #include "Advanced/Actor.h"
-#include "Advanced/CommandAdvanced.h"
+#include "Advanced/CommandAdvanced.h"//si on avait un player controller ce serait lui qui aurait cet include
 
 using namespace std;
 
@@ -17,6 +17,7 @@ int main(){
     cout<<"begin commandPattern "<<endl;
     cout<<"Press ZQSD inputs to test"<<endl;
 
+    //le système simple d'input
     Inputhandler* inputhandler = new Inputhandler();
 
     //advanced

@@ -20,10 +20,13 @@ public:
     CommandAdvanced* HandleInputs(char input);
 
 private:
+    //un binding sur la touche Z
     CommandAdvanced* zButtonBinding;
 
+    //on garde les commandes en mémoire pour pouvoir les annuler !
     deque<CommandAdvanced*> commands;
 
+    //annule la dernière commande
     void Undo();
 };
 
