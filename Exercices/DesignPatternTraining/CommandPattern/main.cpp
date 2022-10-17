@@ -15,7 +15,7 @@ using namespace std;
 int main(){
 
     cout<<"begin commandPattern "<<endl;
-    cout<<"Press ZQSD inputs to test"<<endl;
+    cout<<"Press Z to test and s to undo"<<endl;
 
     //le système simple d'input
     Inputhandler* inputhandler = new Inputhandler();
