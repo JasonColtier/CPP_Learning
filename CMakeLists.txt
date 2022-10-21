@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(Exercices/DesignPatternTraining/CommandPattern)
 
-#add_executable(CPP_Learning
-##        Exercices/Questions/QuestionSimples.cpp
-#        Exercices/DesignPatternTraining/CommandPattern/main.cpp)
+add_executable(CPP_Learning
+        Exercices/Questions/QuestionSimples.cpp
+        Exercices/Questions/AnkiPlayground.cpp
+        )

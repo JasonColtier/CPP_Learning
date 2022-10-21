@@ -15,4 +15,4 @@ add_executable(CommandPattern
         Advanced/InputhandlerAdvanced.cpp
         Advanced/JumpCommandAdvanced.cpp
         Advanced/JumpCommandAdvanced.h
-        Advanced/Actor.h)
+        )

@@ -1,9 +1,12 @@
 #include <iostream>
 
+#include "AnkiPlayground.cpp"
 
 
 int main()
 {
+
+    Test();
 
     //1. Write code for summing up indetermined number of ints from standard input.$
     /*
